@@ -3,8 +3,14 @@ import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 
 export default function Form(props) {
+  // const {
+  //   errorResponse: 'Please match the requested format.',
+  //   type: '',
+  //   placeholder: '',
+  //   className: '',
+  // } = props;
   const {
-    name, value, type, placeholder, className, errorResponse,
+    name, value, type = "", placeholder = "", className = "", errorResponse = 'Please match the requested format.',
   } = props;
 
   const [hasError, setHasError] = useState(null);
@@ -99,12 +105,12 @@ export default function Form(props) {
   );
 }
 
-Form.defaultProps = {
-  errorResponse: 'Please match the requested format.',
-  type: '',
-  placeholder: '',
-  className: '',
-};
+// Form.defaultProps = {
+//   errorResponse: 'Please match the requested format.',
+//   type: '',
+//   placeholder: '',
+//   className: '',
+// };
 
 Form.propTypes = {
   name: PropTypes.string.isRequired,

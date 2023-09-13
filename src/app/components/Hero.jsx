@@ -10,7 +10,7 @@ import BuildWebsite from '../../assets/images/Startup.png';
 export default function Hero() {
   return (
     <section className="hero">
-      <RevealWrapper>
+      {/* <RevealWrapper> */}
         <div className="w-full lg:w-1/2 xl:pl-12 sm:pr-2 mt-8">
           <h1 className="text-5xl sm:text-6xl text-theme-blue font-bold leading-tight mb-5">
             Growing Your Business
@@ -31,13 +31,13 @@ export default function Hero() {
             </svg>
           </Button>
         </div>
-      </RevealWrapper>
+      {/* </RevealWrapper> */}
 
-      <RevealWrapper>
+      {/* <RevealWrapper> */}
         <div className="flex pt-5 w-full justify-center items-center order-first md:w-full lg:order-last lg:w-1/2">
-          <img className="" src={BuildWebsite} alt="Build Website" />
+          <img className="" src="../../assets/images/startup.png" alt='Build website image' />
         </div>
-      </RevealWrapper>
+      {/* </RevealWrapper> */}
     </section>
   );
 }

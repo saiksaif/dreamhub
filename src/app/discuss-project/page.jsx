@@ -1,10 +1,10 @@
+"use client"
 /* eslint-disable react/destructuring-assignment */
 /* eslint-disable react/jsx-filename-extension */
 import React, { Component } from 'react';
 
-import Header from 'parts/Header';
-import DiscussForm from 'parts/DiscussForm';
-import Footer from 'parts/Footer';
+
+import DiscussForm from '../components/DiscussForm';
 
 export default class DiscussProjectPage extends Component {
   constructor(props) {
@@ -52,9 +52,7 @@ export default class DiscussProjectPage extends Component {
       return (
         <>
           {/* eslint-disable-next-line react/jsx-props-no-spreading */}
-          <Header {...this.props} />
           <DiscussForm data={data} onChange={this.onChange} resetForm={this.resetForm} />
-          <Footer />
         </>
       );
     }
