@@ -112,6 +112,7 @@ export default function Header(props) {
                 } px-10 no-underline hover:underline`}
                 type="link"
                 href="/"
+                onClick={()=>setIsCollapse(false)}
               >
                 Home
               </Button>
@@ -123,6 +124,7 @@ export default function Header(props) {
                 } px-10 no-underline hover:underline`}
                 type="link"
                 href="/team"
+                onClick={()=>setIsCollapse(false)}
               >
                 Team
               </Button>
@@ -134,6 +136,7 @@ export default function Header(props) {
                 } px-10 no-underline hover:underline`}
                 type="link"
                 href="/project"
+                onClick={()=>setIsCollapse(false)}
               >
                 Project
               </Button>
@@ -143,6 +146,7 @@ export default function Header(props) {
                 className="mx-auto px-5 py-2 bg-theme-purple text-white rounded-full border-2 border-theme-purple hover:bg-dark-theme-purple border-purple-800 transition duration-200"
                 type="link"
                 href="/discuss-project"
+                onClick={()=>setIsCollapse(false)}
               >
                 Discuss Project
               </Button>

@@ -38,12 +38,12 @@ export default function Footer() {
             </Button>
           </div>
         </div>
-        <div className="flex-col text-center mt-7">
-          <p className="text-lg text-gray-400 font-light">
+        <div className="flex-col text-center mt-7 mx-3">
+          <p className=" text-sm md:text-lg text-gray-400 font-light">
             Copyright 2021 - All rights reserved - DreamHub
           </p>
           <div className="flex-row">
-            <p className="inline-block text-lg text-gray-400 font-light">
+            <p className="inline-block text-sm md:text-lg text-gray-400 font-light">
               Made with &#x2764; by&nbsp;
             </p>
             <Button

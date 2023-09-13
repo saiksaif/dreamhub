@@ -11,7 +11,7 @@ export default function Hero() {
   return (
     <section className="hero">
       {/* <RevealWrapper> */}
-        <div className="w-full lg:w-1/2 xl:pl-12 sm:pr-2 mt-8">
+        <div className="w-full lg:w-1/2 xl:pl-12 sm:pr-2 mt-8 lg:py-32">
           <h1 className="text-5xl sm:text-6xl text-theme-blue font-bold leading-tight mb-5">
             Growing Your Business
             {' '}
