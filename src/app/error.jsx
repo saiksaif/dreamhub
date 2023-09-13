@@ -1,17 +1,21 @@
+'use client' // Error components must be Client Components
+ 
+import { useEffect } from 'react'
 /* eslint-disable react/jsx-filename-extension */
 import React, { Component } from 'react';
 
-import Button from 'elements/Button';
-
-import NotFound from 'assets/images/NotFound.png';
-
-// eslint-disable-next-line react/prefer-stateless-function
-export default class NotFoundPage extends Component {
-  render() {
-    return (
-      <div className="flex flex-col w-full h-screen justify-center bg-gray-800">
+import Button from '@/elements/Button';
+ 
+export default function Error({ error, reset }) {
+  useEffect(() => {
+    // Log the error to an error reporting service
+    console.error(error)
+  }, [error])
+ 
+  return (
+    <div className="flex flex-col w-full h-screen justify-center bg-gray-800">
         <div className="flex w-full justify-center">
-          <img src={NotFound} alt="Not Found" className="sm:w-3/4 xl:w-5/12" />
+          <img src='../../assets/images/NotFound.png' alt="Not Found" className="sm:w-3/4 xl:w-5/12" />
         </div>
         <h1 className="text-white text-2xl text-center mt-5">
           {/* eslint-disable-next-line react/no-unescaped-entities */}
@@ -23,6 +27,5 @@ export default class NotFoundPage extends Component {
           </Button>
         </div>
       </div>
-    );
-  }
+  )
 }
