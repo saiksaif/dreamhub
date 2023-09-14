@@ -9,9 +9,9 @@ import AllTeam from '../components/AllTeam';
 
 import Data from '../../json/landingPage.json';
 
-export const metadata = {
-  title: 'Teams - DreamsHub',
-}
+// export const metadata = {
+//   title: 'Teams - DreamsHub',
+// }
 
 export default class TeamPage extends Component {
 
