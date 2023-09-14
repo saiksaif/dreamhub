@@ -20,9 +20,9 @@ export default function Service({ data }) {
         </RevealWrapper>
 
         <div className="grid grid-rows-3 px-10 gap-8 sm:grid-cols-3 sm:grid-rows-1 sm:gap-6 xl:gap-16">
-          <RevealWrapper>
           {data.map((item, index) => (
-              <div  key={index}>
+            <RevealWrapper key={index}>
+              <div>
                 <div className="bg-white group rounded-2xl shadow-2xl border border-light-theme-purple transform transition duration-500 hover:scale-105">
                   <img
                     src={item.imageUrl}
@@ -35,8 +35,8 @@ export default function Service({ data }) {
                   </h2>
                 </div>
               </div>
+            </RevealWrapper>
           ))}
-          </RevealWrapper>
         </div>
       </div>
     </div>

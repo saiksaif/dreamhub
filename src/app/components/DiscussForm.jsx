@@ -63,6 +63,18 @@ export default function DiscussForm(props) {
         </p>
 
         <div className="flex flex-col">
+          {/* <div className="mx-auto border-black">
+            <Form
+              id="serviceType"
+              name="serviceType"
+              type="select"
+              value={data.projectIdea}
+              // placeholder="Explain about your project idea"
+              // className="flex-1 w-full px-4 py-2 text-base text-gray-700 placeholder-gray-400 bg-white border border-gray-300 rounded-lg appearance-none focus:outline-none focus:ring-2 focus:ring-theme-purple focus:border-transparent"
+              onChange={props.onChange}
+            />
+          </div> */}
+
           <div className="flex flex-col sm:flex-row mx-auto">
             <Form
               id="name"
@@ -70,7 +82,7 @@ export default function DiscussForm(props) {
               type="text"
               value={data.name}
               placeholder="Your name"
-              className=""
+              className="rounded-lg flex-1 appearance-none border border-gray-300 w-full py-2 px-4 bg-white text-gray-700 placeholder-gray-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-theme-purple focus:border-transparent"
               onChange={props.onChange}
             />
             <Form
@@ -79,7 +91,7 @@ export default function DiscussForm(props) {
               type="text"
               value={data.company}
               placeholder="Your company"
-              className=""
+              className="rounded-lg flex-1 appearance-none border border-gray-300 w-full py-2 px-4 bg-white text-gray-700 placeholder-gray-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-theme-purple focus:border-transparent"
               onChange={props.onChange}
             />
           </div>
@@ -91,7 +103,7 @@ export default function DiscussForm(props) {
               type="email"
               value={data.email}
               placeholder="Your email address"
-              className=""
+              className="rounded-lg flex-1 appearance-none border border-gray-300 w-full py-2 px-4 bg-white text-gray-700 placeholder-gray-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-theme-purple focus:border-transparent"
               onChange={props.onChange}
             />
             <Form
@@ -100,7 +112,7 @@ export default function DiscussForm(props) {
               type="tel"
               value={data.phone}
               placeholder="Your contact number"
-              className=""
+              className="rounded-lg flex-1 appearance-none border border-gray-300 w-full py-2 px-4 bg-white text-gray-700 placeholder-gray-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-theme-purple focus:border-transparent"
               onChange={props.onChange}
             />
           </div>
@@ -112,7 +124,7 @@ export default function DiscussForm(props) {
               type="textarea"
               value={data.projectIdea}
               placeholder="Explain about your project idea"
-              className=""
+              className="flex-1 w-full px-4 py-2 text-base text-gray-700 placeholder-gray-400 bg-white border border-gray-300 rounded-lg appearance-none focus:outline-none focus:ring-2 focus:ring-theme-purple focus:border-transparent"
               onChange={props.onChange}
             />
           </div>
