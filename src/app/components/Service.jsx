@@ -1,3 +1,4 @@
+'use client'
 /* eslint-disable react/jsx-filename-extension */
 /* eslint-disable react/prop-types */
 import React from "react";
@@ -19,22 +20,23 @@ export default function Service({ data }) {
         </RevealWrapper>
 
         <div className="grid grid-rows-3 px-10 gap-8 sm:grid-cols-3 sm:grid-rows-1 sm:gap-6 xl:gap-16">
+          <RevealWrapper>
           {data.map((item, index) => (
-            <RevealWrapper key={index}>
-              <div>
+              <div  key={index}>
                 <div className="bg-white group rounded-2xl shadow-2xl border border-light-theme-purple transform transition duration-500 hover:scale-105">
                   <img
                     src={item.imageUrl}
                     alt="Service"
                     className="w-full rounded-t-2xl"
+                    fetchPriority="high"
                   />
                   <h2 className="text-theme-blue text-center text-xl py-7 rounded-b-2xl">
                     {item.title}
                   </h2>
                 </div>
               </div>
-            </RevealWrapper>
           ))}
+          </RevealWrapper>
         </div>
       </div>
     </div>

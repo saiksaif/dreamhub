@@ -1,6 +1,7 @@
-"use client"
+// "use client"
 
 import './globals.css'
+// import dynamic from 'next/dynamic';
 
 import Hero from './components/Hero';
 import Service from './components/Service';
@@ -13,7 +14,6 @@ import Data from '../json/landingPage.json';
 
 
 export default function Home() {
-
 
   return (
     <main className="">

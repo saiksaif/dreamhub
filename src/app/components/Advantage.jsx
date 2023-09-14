@@ -1,3 +1,4 @@
+'use client'
 /* eslint-disable react/prop-types */
 /* eslint-disable react/jsx-filename-extension */
 import React from 'react';
@@ -25,7 +26,7 @@ export default function Advantage({ data }) {
                           <RevealWrapper key={index}>
                             <div>
                               <div className="bg-white flex flex-row items-center p-3 my-6 mx-3 sm:my-7 sm:mx-3 xl:my-14 xl:mx-7 rounded-2xl shadow-xl border border-light-theme-purple transform transition duration-500 hover:scale-105">
-                                <img src={item.imageUrl} alt="" className="w-1/3" />
+                                <img src={item.imageUrl} alt="" className="w-1/3" fetchPriority='low' />
                                 <div className="flex-col pl-5">
                                   <h2 className="text-theme-blue text-2xl">{item.title}</h2>
                                   <p className="font-light text-gray-400">{item.description}</p>

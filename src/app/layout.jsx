@@ -1,13 +1,11 @@
 "use client"
 
 import './globals.css'
-// import '../assets/css/styles.css'
 import { Inter } from 'next/font/google'
-
+import dynamic from 'next/dynamic';
 
 import Header from '@/app/components/Header';
-import Footer from '@/app/components/Footer';
-import Data from '../json/landingPage.json';
+const Footer = dynamic(() => import('@/app/components/Footer'));
 
 const inter = Inter({ subsets: ['latin'] })
 

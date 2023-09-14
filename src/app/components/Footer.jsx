@@ -47,6 +47,18 @@ export default function Footer() {
               Made with &#x2764; by&nbsp;
             </p>
             <Button
+              href="https://github.com/racmathafidz"
+              type="link"
+              target="_blank"
+              className="text-lg text-theme-purple font-light"
+              isExternal
+            >
+              Racmat Hafidz
+            </Button>
+            <p className="inline-block text-sm md:text-lg text-gray-400 font-light">
+              &nbsp;+&nbsp;
+            </p>
+            <Button
               href="https://github.com/saiksaif"
               type="link"
               target="_blank"

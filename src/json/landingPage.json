@@ -2,22 +2,22 @@
     "service" : [
         {
             "title": "Web Development",
-            "imageUrl": "assets/images/Web.png"
+            "imageUrl": "assets/images-c/Web.webp"
         },
         {
             "title": "Mobile Development",
-            "imageUrl": "assets/images/Mobile.png"
+            "imageUrl": "assets/images-c/Mobile.webp"
         },
         {
             "title": "UI/UX Design",
-            "imageUrl": "assets/images/Design.png"
+            "imageUrl": "assets/images-c/Design.webp"
         }
     ],
     "portfolio" : [
         {
             "id": "asd1293uasdads1",
             "title": "Recruiting App",
-            "imageUrl": "assets/images/Recruiting.png",
+            "imageUrl": "assets/images-c/Recruiting.webp",
             "type": "Mobile Apps",
             "responsibility": [
                 "Mobile Development",
@@ -28,7 +28,7 @@
         {
             "id": "asd1293uhjkhkjh2",
             "title": "Stream+",
-            "imageUrl": "assets/images/Stream.png",
+            "imageUrl": "assets/images-c/Stream.webp",
             "type": "Mobile Apps",
             "responsibility": [
                 "Mobile Development",
@@ -39,7 +39,7 @@
         {
             "id": "asd1293uvbvcbbd3",
             "title": "Freelance",
-            "imageUrl": "assets/images/Freelance.png",
+            "imageUrl": "assets/images-c/Freelance.webp",
             "type": "Mobile Apps",
             "responsibility": [
                 "Mobile Development",
@@ -50,7 +50,7 @@
         {
             "id": "asd1293ufgdfgs4",
             "title": "Aura",
-            "imageUrl": "assets/images/Aura.png",
+            "imageUrl": "assets/images-c/Aura.webp",
             "type": "Website",
             "responsibility": [
                 "Web Development",
@@ -61,7 +61,7 @@
         {
             "id": "asd1293ulskmnb5",
             "title": "Surtido Rico",
-            "imageUrl": "assets/images/Surtido.png",
+            "imageUrl": "assets/images-c/Surtido.webp",
             "type": "Website",
             "responsibility": [
                 "Web Development",
@@ -72,7 +72,7 @@
         {
             "id": "asd1293ulkmnbj6",
             "title": "Courses Management",
-            "imageUrl": "assets/images/ManagementApp.png",
+            "imageUrl": "assets/images-c/ManagementApp.webp",
             "type": "Website",
             "responsibility": [
                 "Web Development",
@@ -85,22 +85,22 @@
         [{
             "title": "Communicative",
             "description": "We communicate our project ideas and progress to make it clear.",
-            "imageUrl": "assets/images/Communicative.png"
+            "imageUrl": "assets/images-c/Communicative.webp"
         },
         {
             "title": "Management",
             "description": "We manage our project properly to make our project done well.",
-            "imageUrl": "assets/images/Management.png"
+            "imageUrl": "assets/images-c/Management.webp"
         }],
         [{
             "title": "Collaborative​",
             "description": "Our team are very collaborative to make our project done well.",
-            "imageUrl": "assets/images/Collaborative.png"
+            "imageUrl": "assets/images-c/Collaborative.webp"
         },
         {
             "title": "Favourite",
             "description": "We've did so many project and all of our client love it.",
-            "imageUrl": "assets/images/Favourite.png"
+            "imageUrl": "assets/images-c/Favourite.webp"
         }]
     ],
     "testimonial": [
@@ -108,19 +108,19 @@
             "name": "Sasha Rose",
             "company": "Owner, Surveyor Corps",
             "testimoni": "Thanks for Racxstudio, you guys are the best! Keep up the great work!",
-            "imageUrl": "assets/images/Sasha.jpg"
+            "imageUrl": "assets/images-c/Sasha.webp"
         },
         {
             "name": "Kruger Khan",
             "company": "Director, Shultan Oil",
             "testimoni": "I just wanted to let you know that it’s been great working with Racxstudio.",
-            "imageUrl": "assets/images/Kruger.jpg"
+            "imageUrl": "assets/images-c/Kruger.webp"
         },
         {
             "name": "Reiner John",
             "company": "CEO, Marley CO",
             "testimoni": "Racxstudio is so great. Thank you so much for a job well done.",
-            "imageUrl": "assets/images/Reiner.jpg"
+            "imageUrl": "assets/images-c/Reiner.webp"
         }
     ],
     "team": [

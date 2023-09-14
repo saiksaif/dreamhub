@@ -1,5 +1,6 @@
-/* eslint-disable react/button-has-type */
+'use client'
 /* eslint-disable react/jsx-filename-extension */
+/* eslint-disable react/button-has-type */
 import React from 'react';
 import Link from 'next/link';
 import PropTypes from 'prop-types';
@@ -37,7 +38,7 @@ export default function Button(props) {
 
     return (
       <Link href={href}>
-        <span className={className} style={style} onClick={onClickHandler}>
+        <span style={style} className={className} onClick={onClickHandler}>
           {children}
         </span>
       </Link>

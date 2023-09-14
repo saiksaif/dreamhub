@@ -31,6 +31,7 @@ export default function Portfolio({ data }) {
                     src={item.imageUrl}
                     alt="Portfolio"
                     className="rounded-t-2xl z-0"
+                    fetchPriority="low"
                   />
                   <div className="absolute flex w-full h-full top-0 opacity-0 bg-black justify-center rounded-t-2xl rounded-b img-hover">
                     <button className="focus:outline-none">

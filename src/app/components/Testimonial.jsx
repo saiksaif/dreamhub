@@ -1,3 +1,4 @@
+'use client'
 /* eslint-disable react/prop-types */
 /* eslint-disable react/jsx-filename-extension */
 import React from "react";
@@ -33,6 +34,7 @@ export default function Testimonial({ data }) {
                     src={item.imageUrl}
                     alt="Testimoni"
                     className="w-20 h-20 rounded-full"
+                    fetchPriority="low"
                   />
                   <div className="flex-col pl-5">
                     <h2 className="text-theme-blue text-2xl">{item.name}</h2>
