@@ -21,7 +21,7 @@ export default function Hero() {
           </h1>
 
           <p className="font-light text-xl text-gray-400 leading-relaxed mb-5">
-            We provide developers & designers using latest technologies
+            We provide Youtube Automation and other Services
             to help you scale up your business.
           </p>
 
